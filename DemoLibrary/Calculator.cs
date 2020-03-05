@@ -25,13 +25,13 @@ namespace DemoLibrary
 
         public static double Divide(double x, double y)
         {
-            if (y != 0)
+            if(y != 0)
             {
                 return x / y; 
             }
             else
             {
-                // Custom business logic for divide by zero
+                // Custom business logic for devide by zero
                 return 0;
             }
         }
